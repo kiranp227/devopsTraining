@@ -1,3 +1,3 @@
 # devopsTraining
 
-This is the first repository created fr GIT session
+This is the first repository created fr GIT sessioshdbfhsbfbsjdfn:n
