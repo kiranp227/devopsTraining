@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+                sh 'date'
+                sleep 10
+            }
+        }
+        stage('Devops-Test') {
+            steps {
+                echo 'We are testing the Pipeline'
+                sh 'pwd'
+                sleep 10
+            }
+        }
+        stage('Devops-Compile') {
+            steps {
+                echo 'We are Compiling the Pipeline'
+                sh 'whoami'
+                sleep 10
+            }
+        }
+    }
+}
